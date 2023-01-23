@@ -1,0 +1,73 @@
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 23px;
+  align-content: center;
+}
+
+canvas {
+  display: block;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #0C090A
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  color: #fff;
+  max-width: 90%;
+  padding: 2em 3em;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0px 0px 2px #131415;
+  font-family: 'Open Sans', sans-serif;
+  border: 1.5px solid #7fff00;
+  border-radius: 60px;
+}
+
+.btn {
+  font-size: 25px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  background: rgba(0, 0, 0, 0.4);
+  padding: 15px 40px;
+  border-radius: 40px;
+  font-weight: normal;
+  transition: all 0.2s ease-in-out;
+  border-color: #7fff00;
+}
+
+.btn:hover {
+  color: #7fff00;
+  box-shadow: 0 5px 15px #7fff00;
+}
+
+input {
+  text-align: center;
+  font-size: 23px;
+  width: 100px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 0;
+  border-bottom: 2px solid white;
+  color: white;
+  outline: 0;
+}
+
+input:focus {
+  box-shadow: none;
+}
+
+h1 {
+  font-size: 2.25em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border: 1px;
+  text-decoration: double underline;
+  text-decoration-thickness: 2px;
+}
